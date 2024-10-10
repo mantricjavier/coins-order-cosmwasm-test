@@ -1,0 +1,1 @@
+2540771ac258b64a0e0435ee33ed712fcbc6ba63d15a6470b5bf05a1f4749f46  coins_order_test.wasm
