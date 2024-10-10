@@ -1,0 +1,530 @@
+{
+  "tx": {
+    "body": {
+      "messages": [
+        {
+          "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+          "sender": "mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc",
+          "contract": "mantra19twved2ftvdgh2qc94v9y8gr2q6634ynm4lt8f85ph5xuglkmnesdvmj0a",
+          "msg": {
+            "send_coins": {
+              "sort": true
+            }
+          },
+          "funds": [
+            {
+              "denom": "factory/mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc/dragon",
+              "amount": "10"
+            },
+            {
+              "denom": "uom",
+              "amount": "10"
+            }
+          ]
+        }
+      ],
+      "memo": "",
+      "timeout_height": "0",
+      "extension_options": [],
+      "non_critical_extension_options": []
+    },
+    "auth_info": {
+      "signer_infos": [
+        {
+          "public_key": {
+            "@type": "/cosmos.crypto.secp256k1.PubKey",
+            "key": "A/7lreIrLPtfmvJK9I4JUVEcBnxu1qUhq4fCixkoYnDa"
+          },
+          "mode_info": {
+            "single": {
+              "mode": "SIGN_MODE_DIRECT"
+            }
+          },
+          "sequence": "25"
+        }
+      ],
+      "fee": {
+        "amount": [
+          {
+            "denom": "uom",
+            "amount": "1084620"
+          }
+        ],
+        "gas_limit": "361540",
+        "payer": "",
+        "granter": ""
+      },
+      "tip": null
+    },
+    "signatures": [
+      "3aLH5xzgEe3oZVVogJ6vEBxTQfshCgs6ykg87T83zFY+WGiVleU715kysOicZP82BxdpveDPazUpD5pknyLzTg=="
+    ]
+  },
+  "tx_response": {
+    "height": "54756",
+    "txhash": "173954A683A7B7D42A73BE9642D48922AEA1318A781D92E9E62C9DBF656C0ADB",
+    "codespace": "",
+    "code": 0,
+    "data": "122E0A2C2F636F736D7761736D2E7761736D2E76312E4D736745786563757465436F6E7472616374526573706F6E7365",
+    "raw_log": "",
+    "logs": [],
+    "info": "",
+    "gas_wanted": "361540",
+    "gas_used": "292099",
+    "tx": {
+      "@type": "/cosmos.tx.v1beta1.Tx",
+      "body": {
+        "messages": [
+          {
+            "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+            "sender": "mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc",
+            "contract": "mantra19twved2ftvdgh2qc94v9y8gr2q6634ynm4lt8f85ph5xuglkmnesdvmj0a",
+            "msg": {
+              "send_coins": {
+                "sort": true
+              }
+            },
+            "funds": [
+              {
+                "denom": "factory/mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc/dragon",
+                "amount": "10"
+              },
+              {
+                "denom": "uom",
+                "amount": "10"
+              }
+            ]
+          }
+        ],
+        "memo": "",
+        "timeout_height": "0",
+        "extension_options": [],
+        "non_critical_extension_options": []
+      },
+      "auth_info": {
+        "signer_infos": [
+          {
+            "public_key": {
+              "@type": "/cosmos.crypto.secp256k1.PubKey",
+              "key": "A/7lreIrLPtfmvJK9I4JUVEcBnxu1qUhq4fCixkoYnDa"
+            },
+            "mode_info": {
+              "single": {
+                "mode": "SIGN_MODE_DIRECT"
+              }
+            },
+            "sequence": "25"
+          }
+        ],
+        "fee": {
+          "amount": [
+            {
+              "denom": "uom",
+              "amount": "1084620"
+            }
+          ],
+          "gas_limit": "361540",
+          "payer": "",
+          "granter": ""
+        },
+        "tip": null
+      },
+      "signatures": [
+        "3aLH5xzgEe3oZVVogJ6vEBxTQfshCgs6ykg87T83zFY+WGiVleU715kysOicZP82BxdpveDPazUpD5pknyLzTg=="
+      ]
+    },
+    "timestamp": "2024-10-10T11:51:11Z",
+    "events": [
+      {
+        "type": "coin_spent",
+        "attributes": [
+          {
+            "key": "spender",
+            "value": "mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "1084620uom",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_received",
+        "attributes": [
+          {
+            "key": "receiver",
+            "value": "mantra13pxn9n3qw79e03844rdadagmg0nshmwf4txc8r",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "1084620uom",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "transfer",
+        "attributes": [
+          {
+            "key": "recipient",
+            "value": "mantra13pxn9n3qw79e03844rdadagmg0nshmwf4txc8r",
+            "index": true
+          },
+          {
+            "key": "sender",
+            "value": "mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "1084620uom",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "attributes": [
+          {
+            "key": "sender",
+            "value": "mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "tx",
+        "attributes": [
+          {
+            "key": "acc_seq",
+            "value": "mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc/25",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "tx",
+        "attributes": [
+          {
+            "key": "signature",
+            "value": "3aLH5xzgEe3oZVVogJ6vEBxTQfshCgs6ykg87T83zFY+WGiVleU715kysOicZP82BxdpveDPazUpD5pknyLzTg==",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "attributes": [
+          {
+            "key": "action",
+            "value": "/cosmwasm.wasm.v1.MsgExecuteContract",
+            "index": true
+          },
+          {
+            "key": "sender",
+            "value": "mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc",
+            "index": true
+          },
+          {
+            "key": "module",
+            "value": "wasm",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_spent",
+        "attributes": [
+          {
+            "key": "spender",
+            "value": "mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "10factory/mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc/dragon,10uom",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_received",
+        "attributes": [
+          {
+            "key": "receiver",
+            "value": "mantra19twved2ftvdgh2qc94v9y8gr2q6634ynm4lt8f85ph5xuglkmnesdvmj0a",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "10factory/mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc/dragon,10uom",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "transfer",
+        "attributes": [
+          {
+            "key": "recipient",
+            "value": "mantra19twved2ftvdgh2qc94v9y8gr2q6634ynm4lt8f85ph5xuglkmnesdvmj0a",
+            "index": true
+          },
+          {
+            "key": "sender",
+            "value": "mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "10factory/mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc/dragon,10uom",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "execute",
+        "attributes": [
+          {
+            "key": "_contract_address",
+            "value": "mantra19twved2ftvdgh2qc94v9y8gr2q6634ynm4lt8f85ph5xuglkmnesdvmj0a",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "wasm",
+        "attributes": [
+          {
+            "key": "_contract_address",
+            "value": "mantra19twved2ftvdgh2qc94v9y8gr2q6634ynm4lt8f85ph5xuglkmnesdvmj0a",
+            "index": true
+          },
+          {
+            "key": "action",
+            "value": "send_coins",
+            "index": true
+          },
+          {
+            "key": "sending order",
+            "value": "factory/mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc/dragon, uom",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_spent",
+        "attributes": [
+          {
+            "key": "spender",
+            "value": "mantra19twved2ftvdgh2qc94v9y8gr2q6634ynm4lt8f85ph5xuglkmnesdvmj0a",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "10factory/mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc/dragon,10uom",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_received",
+        "attributes": [
+          {
+            "key": "receiver",
+            "value": "mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "10factory/mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc/dragon,10uom",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "transfer",
+        "attributes": [
+          {
+            "key": "recipient",
+            "value": "mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc",
+            "index": true
+          },
+          {
+            "key": "sender",
+            "value": "mantra19twved2ftvdgh2qc94v9y8gr2q6634ynm4lt8f85ph5xuglkmnesdvmj0a",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "10factory/mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc/dragon,10uom",
+            "index": true
+          },
+          {
+            "key": "msg_index",
+            "value": "0",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_spent",
+        "attributes": [
+          {
+            "key": "spender",
+            "value": "mantra13pxn9n3qw79e03844rdadagmg0nshmwf4txc8r",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "2568uom",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "burn",
+        "attributes": [
+          {
+            "key": "burner",
+            "value": "mantra13pxn9n3qw79e03844rdadagmg0nshmwf4txc8r",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "2568uom",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_spent",
+        "attributes": [
+          {
+            "key": "spender",
+            "value": "mantra13pxn9n3qw79e03844rdadagmg0nshmwf4txc8r",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "1082052uom",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_received",
+        "attributes": [
+          {
+            "key": "receiver",
+            "value": "mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "1082052uom",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "transfer",
+        "attributes": [
+          {
+            "key": "recipient",
+            "value": "mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc",
+            "index": true
+          },
+          {
+            "key": "sender",
+            "value": "mantra13pxn9n3qw79e03844rdadagmg0nshmwf4txc8r",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "1082052uom",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "attributes": [
+          {
+            "key": "sender",
+            "value": "mantra13pxn9n3qw79e03844rdadagmg0nshmwf4txc8r",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "fee_pay",
+        "attributes": [
+          {
+            "key": "fee",
+            "value": "2568uom",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "tip_refund",
+        "attributes": [
+          {
+            "key": "tip",
+            "value": "1082052uom",
+            "index": true
+          },
+          {
+            "key": "tip_payee",
+            "value": "mantra1x5nk33zpglp4ge6q9a8xx3zceqf4g8nvaggjmc",
+            "index": true
+          }
+        ]
+      }
+    ]
+  }
+}
